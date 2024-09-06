@@ -74,7 +74,8 @@ article {
 }
 picture {
   flex-basis: 100%;
-  margin-top: 2rem;
+  margin-top: 3rem 0 0 0;
+  align-content: center;
 }
 
 picture img {
@@ -177,7 +178,7 @@ html {
   }
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     gap: 1rem;
     justify-items:space-evenly;
     align-items: center;
